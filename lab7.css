@@ -1,0 +1,21 @@
+body {
+    width: 100%;                 
+    margin: 15 15 15 15;
+	padding: 15px;
+	background-color:gray;
+
+	}
+	
+#lab7form
+	{       width:30%;
+			background-color:white;
+            float:center;
+			margin:15px;
+			padding:15px;
+			border:2px solid ;
+
+	}
+
+h1{
+	color:blue;
+}

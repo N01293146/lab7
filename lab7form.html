@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+<title>Account sign up</title>
+<meta charset="utf-8">
+<meta name="description"content="form">
+<meta name="keywords" content="HTML,Table,CSS,Form">
+<link href="lab7.css" rel="stylesheet">
+</head>
+<body>
+<div id="lab7form">
+<header><h1>Account sign up</h1></header>
+<main>
+<form id="reqform" name="reqform"action="lab7form.html" method="get">
+<div id="main">
+<fieldset> 
+<legend>Account information</legend>
+<label for id="email">Email :<label>  <input type="email" id="email"placeholder="enter email " name="email"/><br>
+<label for id="password">Password :</label> <input type="password" id="password"placeholder="password" name="password"/><br>
+<label for id="phone">Phone Number :</label> <input type="number" id="phone"placeholder="phone number" name="phone"/>
+</fieldset>
+<div>
+<fieldset>
+<legend>Settings</legend>
+How did you hear about us?<br>
+<input type="radio" name="setting"value="search"id="s"><label for id="s">Search Engine</label><br>
+<input type="radio" name="setting"value="word"id="w"><label for id="w">Word of mouth</label><br>
+<input type="radio" name="setting"value="others"id="o"><label for id="o">Others</label><br>
+Would you like to receive announcements about new products and special offers?<br>
+<input type="checkbox" name="hello" value="yes"id="hello"><label for id="css">YES,I'd like to receive information about new products and special offers.</label><br>
+<label for id="contact">Contact via</label><select name="contact" id="contact">
+<option value="us" selected>Email</label></option>
+<option value="ca">Phone</label></option>
+</select><br>
+<label for id="comment">Comments</label><br>
+<textarea name="comment"id="comment" rows="10" cols="40"></textarea><br>
+</fieldset>
+<input type="submit" value="Submit"/>
+</form>
+</div>
+</body>
+</html>
